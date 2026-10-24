@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+        <section class="score-board">
+            <div class="score">
+                <p>You</p>
+                <span id="player-score">0</span>
+            </div>
+            <div class="score">
+                <p>Computer</p>
+                <span id="computer-score">0</span>
+            </div>
+        </section>
+
+        <h2 id="result">Choose your move!</h2>
+        <p id="choices">Make your selection below.</p>
+
+        <section class="choices">
+            <button class="choice" data-choice="rock" aria-label="Choose rock">✊</button>
+            <button class="choice" data-choice="paper" aria-label="Choose paper">✋</button>
+            <button class="choice" data-choice="scissors" aria-label="Choose scissors">✌️</button>
+        </section>
+
+        <button id="reset">Reset Game</button>
+    </main>
+
+    <footer>
+        <p>Built with HTML, CSS, and JavaScript</p>
+    </footer>
+</body>
+</html>
